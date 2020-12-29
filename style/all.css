@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Hammer;
+    src: url(Hammersmith_One/HammersmithOne-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Bitter;
+    src: url(Bitter/static/Bitter-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Bitter-Medium;
+    src: url(Bitter/static/Bitter-Medium.ttf);
+  }
+
+  body {
+      margin: 0;
+      background-color: #50859E;
+      border: 5px solid white;
+  }
+
+  .header {
+    text-align: center;
+    padding-top: 5vh;
+    height: 100vh;
+  }
+
+  .title {
+      font-family: Hammer;
+      font-size: 90px;
+      color: #021B33;
+      margin: 0;
+  }
+
+  .subtitle {
+      font-family: Bitter-Medium;
+      font-size: 30px;
+      margin: 20px;
+      color: #021B33;
+  }
+
+
+  .icon {
+      font-size: 35px;
+      padding: 6px;
+      color: #021B33;
+      display: none;
+  }
+
+  .me {
+      height: 250px;
+  }
+
+  .enter {
+      font-family: Hammer;
+      text-decoration: underline;
+      font-size: 40px;
+      padding-top: 30px;
+  }
+
+  .enter a {
+    color: #E17A37;
+  }

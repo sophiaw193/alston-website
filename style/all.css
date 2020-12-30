@@ -27,12 +27,11 @@
 
   body {
       margin: 0;
-      font-family: Hind;
+      /* font-family: Hind; */
   }
 
   .landing {
-    background-color: #589AC1;
-    border: 5px solid white;
+    background-color: #379DFA;
   }
 
   .header {
@@ -43,6 +42,8 @@
 
   .title {
       font-family: Hammer;
+      text-shadow: 
+      3px 3px white;
       font-size: 90px;
       color: #021B33;
       margin: 0;
@@ -63,8 +64,17 @@
       display: none;
   }
 
+  @keyframes move {
+    50% {transform: rotate(5deg)}
+  }
+
+  @keyframes move-slow {
+    50% {transform: rotate(2deg)}
+  }
+
   .me {
       height: 250px;
+      animation: move 1s ease infinite;
   }
 
   .enter {
@@ -72,6 +82,10 @@
       text-decoration: underline;
       font-size: 40px;
       padding-top: 30px;
+  }
+
+  .enter a:hover {
+    color: white;
   }
 
   .enter a {
@@ -137,10 +151,10 @@
     border: none;
     outline: none;
       color: #021B33;
-      font-family: Hind;
       background-color: white;
       font-size: 17px;
       cursor: pointer;
+      font-family: Bitter-Medium;
   }
 
   .photos {
@@ -195,6 +209,12 @@ margin: 0 auto;
 
   .one-post:hover {
     box-shadow: 5px 5px black;
-    transform: scale(1.03);
+    animation: move-slow 1s ease;
     transition-duration: 0.3s;
+   }
+
+   .footer {
+     height: 90px;
+     background-color: black;
+     margin-top: 100px;
    }

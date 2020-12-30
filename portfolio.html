@@ -8,14 +8,14 @@
     <!-- <link rel="icon" type="image/x-icon" href="images/favicon.ico"/> -->
     <script src="scripts/jquery-3.5.1.min.js"></script>
     <script src="scripts/all.js"></script>
-    <!-- <script src="https://kit.fontawesome.com/7158ea7603.js" crossorigin="anonymous"></script> -->
+    <script src="scripts/tab.js"></script>
     <title>Alston Wang</title>
 </head>
 
 <body>
     <div class="nav">
         <a href="index.html"><img class="me" src="images/me.png" alt="me"></a>
-        <h2>ALSTON WANG</h2>
+        <h2 class="name">ALSTON WANG</h2>
         <div>
             <ul class="links">
                 <li class="links"><a class="active" href="portfolio.html">WORK</a></li>
@@ -29,13 +29,79 @@
     <div class="content">
         <div class="work-buttons">
             <ul>
-                <li><a href="">PHOTO</a></li>
+                <li>
+                    <button class="tablinks" onclick="openTab(event, 'photo')" id="default">PHOTO</button>
+                </li>
                 <p>|</p>
-                <li><a href="">CASE STUDY</a></li>
+                <li>
+                    <button class="tablinks" onclick="openTab(event, 'case')">CASE STUDY</button>
+                </li>
                 <p>|</p>
-                <li><a href="">VIDEO</a></li>
+                <li>
+                    <button class="tablinks" onclick="openTab(event, 'video')">VIDEO</button>
+                </li>
             </ul>
         </div>
+
+        <div id="photo" class="tabcontent">
+            <div class="photos">
+                <div class="one-photo">
+
+                </div>
+                <div class="one-photo">
+    
+                </div>
+                <div class="one-photo">
+    
+                </div>
+                <div class="one-photo">
+    
+                </div>
+                <div class="one-photo">
+    
+                </div>
+                <div class="one-photo">
+    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="case" class="tabcontent">
+            <div class="photos">
+                <div class="one-photo">
+
+                </div>
+                <div class="one-photo">
+    
+                </div>
+                <div class="one-photo">
+    
+                </div>
+
+            </div>
+        </div>
+
+        <div id="video" class="tabcontent">
+            <div class="photos">
+                <div class="one-photo">
+
+                </div>
+                <div class="one-photo">
+    
+                </div>
+                <div class="one-photo">
+    
+                </div>
+
+            </div>
+        </div>
+
+        <script>
+            // default show photo
+            document.getElementById("default").click();
+        </script>
 
 
 

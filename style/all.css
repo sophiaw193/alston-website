@@ -18,6 +18,12 @@
     src: url(OpenSans/OpenSans-Regular.ttf);
   }
 
+
+  @font-face {
+    font-family: Open-medium;
+    src: url(OpenSans/OpenSans-SemiBold.ttf);
+  }
+
   @font-face {
     font-family: Open-Bold;
     src: url(OpenSans/OpenSans-Bold.ttf);
@@ -50,7 +56,7 @@
       text-shadow: 
       3px 3px white;
       font-size: 90px;
-      color: #021B33;
+      color: black;
       margin: 0;
   }
 
@@ -58,14 +64,14 @@
       font-family: Bitter-Medium;
       font-size: 30px;
       margin: 20px;
-      color: #021B33;
+      color: black;
   }
 
 
   .icon {
       font-size: 35px;
       padding: 6px;
-      color: #021B33;
+      color: black;
       display: none;
   }
 
@@ -84,7 +90,6 @@
 
   .enter {
       font-family: Hammer;
-      text-decoration: underline;
       font-size: 40px;
       padding-top: 30px;
   }
@@ -95,6 +100,7 @@
 
   .enter a {
     color: #E17A37;
+    text-decoration: none;
   }
 
   .nav .me {
@@ -112,7 +118,7 @@
       font-size: 40px;
       width: auto;
       margin: 0 auto;
-      color: #021B33;
+      color: black;
       padding-left: 20%;
   }
 
@@ -125,13 +131,13 @@
   }
 
   .links a {
-      color: #021B33;
+      color: black;
       text-decoration: none;
       padding-left: 5px;
   }
 
   .links a:visited {
-    color: #021B33;
+    color: black;
   }
 
   .active {
@@ -155,11 +161,11 @@
   .work-buttons button {
     border: none;
     outline: none;
-      color: #021B33;
+      color: black;
       background-color: white;
       font-size: 17px;
       cursor: pointer;
-      font-family: Open;
+      font-family: Open-medium;
   }
 
   .photos {
@@ -332,6 +338,16 @@ margin: 0 auto;
     font-family: open-bold;
   }
 
+  .footer-icon {
+    color: #E17A37;
+    font-size: 27px;
+    padding: 6px;
+    padding-top: 30px;
+  }
+
+  .footer div {
+    text-align: center;
+  }
 
 
 

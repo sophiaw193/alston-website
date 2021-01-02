@@ -19,6 +19,11 @@
   }
 
   @font-face {
+    font-family: Open-Bold;
+    src: url(OpenSans/OpenSans-Bold.ttf);
+  }
+
+  @font-face {
     font-family: Hind;
     src: url(Hind_Siliguri/HindSiliguri-Regular.ttf);
   }
@@ -130,7 +135,7 @@
   }
 
   .active {
-      color:#E17A37!important;
+      color:#379DFA!important;
   }
 
   .work-buttons {
@@ -154,7 +159,7 @@
       background-color: white;
       font-size: 17px;
       cursor: pointer;
-      font-family: Bitter-Medium;
+      font-family: Open;
   }
 
   .photos {
@@ -218,3 +223,152 @@ margin: 0 auto;
      background-color: black;
      margin-top: 100px;
    }
+
+   .timeline * {
+    box-sizing: border-box;
+    font-family: Open;
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color:black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 10px;
+  }
+  
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: -11px;
+    background-color: white;
+    border: 5px solid #379DFA;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    left: 50%;
+  }
+
+  .right::after {
+    left: -11px;
+  }
+  
+  .content {
+    padding-left:20px;
+    padding-bottom:20px;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    position: relative;
+    border-radius: 6px;
+  }
+
+  .event-title {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+  }
+
+  .event-title .date {
+    background-color: #379DFA;
+    color: white;
+    border-radius: 10px;
+    font-family: Hammer;
+    padding: 10px;
+  }
+
+  .event-title .event-name{
+    padding: 10px;
+    font-family: open-bold;
+  }
+
+  .nature {
+    height: 350px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    width: 69.5%;
+    font-family: open;
+    padding-bottom: 70px;
+    padding-left: 180px;
+  }
+
+  .about p {
+    padding-right: 50px;
+    font-size: 18px;
+  }
+
+  .about span {
+    display: block;
+    font-size: 30px;
+    font-family: open-bold;
+  }
+
+
+
+
+
+
+
+
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+    .timeline::after {
+      left: 31px;
+    }
+  
+  /* Full-width containers */
+    .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+  /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+      left: 60px;
+      border: medium solid lightblue;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent lightblue transparent transparent;
+    }
+  
+  /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+  /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+  }

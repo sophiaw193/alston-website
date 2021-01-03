@@ -349,6 +349,15 @@ margin: 0 auto;
     text-align: center;
   }
 
+  .interests-content {
+    font-family: open;
+    padding-left: 150px;
+  }
+
+  .interests-content h2, .interests-content h3 {
+font-family: open-medium;
+  }
+
 
 
 

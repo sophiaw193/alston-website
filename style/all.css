@@ -149,7 +149,7 @@
     font-size: 18px;
   }
 
-.work-buttons li, .work-buttons p {
+.work-buttons li, .work-buttons div {
     display: inline;
     padding: 10px;
   }

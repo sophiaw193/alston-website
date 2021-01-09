@@ -4,37 +4,6 @@ include("includes/init.php");
 // open connection to database
 $db = open_or_init_sqlite_db('posts.sqlite', "init/init.sql");
 
-check_login();
-
-//upload form
-// if (isset($_POST["submit_upload"])) {
-//     $upload_image = $_FILES["gallery_image"];
-
-//     if ($upload_image['error'] == UPLOAD_ERR_OK) {
-//         $upload_name = basename($upload_image["name"]);
-//         $upload_ext = strtolower(pathinfo($upload_name, PATHINFO_EXTENSION));
-
-//         $sql = "INSERT INTO posts (file_name, file_ext, accounts_username) VALUES (:filename, :extension, :accounts_username)";
-//         $params = array(
-//             ':filename' => $upload_name,
-//             ':extension' => $upload_ext,
-//             ':accounts_username' => $current_user,
-//         );
-//         $result = exec_sql_query($db, $sql, $params);
-
-//         if ($result) {
-//             $file_id = $db->lastInsertId("id");
-//             if (move_uploaded_file($upload_image["tmp_name"], UPLOADS_PATH . "$file_id.$upload_ext")) {
-//                 array_push($messages, "Your file has been uploaded.");
-//             }
-//         } else {
-//             array_push($messages, "Failed to upload file.");
-//         }
-//     } else {
-//         array_push($messages, "Failed to upload file.");
-//     }
-// }
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -79,7 +48,7 @@ check_login();
             "
             <div class=one-post>
      
-            <a href=\"singlepost.php?id=" . $record["id"] . "\">
+            <a href=\"post.php?id=" . $record["id"] . "\">
             <div class=\"post-text\">
             <h3>" . $record["title"] . "</h3>
             <h4>" . $record["cal"] . "</h4>

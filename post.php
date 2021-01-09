@@ -36,8 +36,6 @@ $records = exec_sql_query($db, "SELECT * FROM posts WHERE id=$current_post_id")-
 
   <?php 
 
-  print_messages();
-
   foreach ($records as $record) {
     echo "<div class=post>
     <h1>" . $record["title"] . "</h1>

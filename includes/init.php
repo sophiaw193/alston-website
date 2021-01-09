@@ -1,21 +1,5 @@
 <?php
 
-// An array to deliver messages to the user.
-$messages = array();
-
-function record_message($message) {
-  global $messages;
-  array_push($messages, $message);
-}
-
-// Write out any messages to the user.
-function print_messages() {
-  global $messages;
-  foreach ($messages as $message) {
-    echo "<p class='printmessage'><strong>" . htmlspecialchars($message) . "</strong></p>\n";
-  }
-}
-
 function handle_db_error($exception) {
   echo '<p><strong>' . htmlspecialchars('Exception : ' . $exception->getMessage()) . '</strong></p>';
 }
@@ -58,7 +42,5 @@ function open_or_init_sqlite_db($db_filename, $init_sql_filename) {
 }
 
 $db = open_or_init_sqlite_db("posts.sqlite", "init/init.sql");
-
-
 
 ?>

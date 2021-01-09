@@ -32,12 +32,6 @@ $db = open_or_init_sqlite_db('posts.sqlite', "init/init.sql");
         </div>
     </div>
 
-    <?php
-    print_messages();
-    ?>
-
-
-
     <div class="blog-content">
         <div class="posts">
 
@@ -61,37 +55,6 @@ $db = open_or_init_sqlite_db('posts.sqlite', "init/init.sql");
         ?>
         </div>
     </div>
-
-    <!-- <div class="blog-content">
-        <div class="posts">
-            <div class="one-post">
-                <div class="post-img">
-                </div>
-                <div class="post-text">
-                    <h3>Blog Post Title</h3>
-                    <h4>subtext...</h4>
-                </div>
-            </div>
-            <div class="one-post">
-                <div class="post-img">
-                </div>
-                <div class="post-text">
-                    <h3>Blog Post Title</h3>
-                    <h4>subtext...</h4>
-                </div>
-            </div>
-            <div class="one-post">
-                <div class="post-img">
-                </div>
-                <div class="post-text">
-                    <h3>Blog Post Title</h3>
-                    <h4>subtext...</h4>
-                </div>
-            </div>
-
-        </div>
-
-    </div> -->
 
     <div class="footer">
         <div>

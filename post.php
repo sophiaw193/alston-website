@@ -16,7 +16,7 @@ $records = exec_sql_query($db, "SELECT * FROM posts WHERE id=$current_post_id")-
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="style/all.css" media="all" />
 
-  <title>Image</title>
+  <title>Blog</title>
 </head>
 
 <body>
@@ -32,6 +32,8 @@ $records = exec_sql_query($db, "SELECT * FROM posts WHERE id=$current_post_id")-
             </ul>
         </div>
     </div>
+
+    <a href="blog.php">All Posts</a>
 
 
   <?php 

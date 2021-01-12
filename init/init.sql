@@ -5,6 +5,28 @@ CREATE TABLE posts (
 	content TEXT NOT NULL
 );
 
+INSERT INTO posts (title, cal, content) VALUES (
+    'Time & Money',
+    'January 21, 2021',
+    'Recently, I finished reading a book called Die with zero: Getting all you can from your money and life by Bill Perkins. I first heard of Perkins from watching the <a href="https://en.wikipedia.org/wiki/PokerStars_Big_Game">Big Game</a>, where professional poker players buy in with hundreds of thousands of dollars at the Bellagio, the famous casino located in the heart of Las Vegas.
+    <br/></br/>
+    Perkins wasn’t like the other players who have dedicated their whole lives to the game. He made his fortune through venture capital in the energy markets and now plays poker as a hobby. I respected Perkins because of his background and aggressive playstyle, which made him a formidable foe for the game’s pro players.
+    <br/></br/>
+    When I first heard that he had written a book on money, I knew that I had to add it to my personal development books collection. Here’s my reflection after reading the book…
+    <br/></br/>
+    Before reading the book, the concept of dying with zero was foreign; I thought we should aim to die filthy rich to show others how good a life we’ve lived. Throughout the book, Perkins’s main point was that life experiences are the <u>most important conversions of both time and money.</u> Therefore, it should be a goal to exchange the money earned from our time for valuable life experiences to look back on our death beds.
+    <br/></br/>
+    In many ways, the themes highlighted in the book reminded me that we should die with not only zero dollars but also with zero regrets. While we may hear this all this time, the idea of maximizing your wealth accumulated throughout your lifetime by spending it all before dying is still a new idea to me.
+    <br/></br/>
+    Like many others, I am absolutely <i>terrified</i> about the thought of running out of money in my later years. At the same time, I have become aware that this fear has made me afraid of spending money. Ultimately, the right balance of spending money recklessly and spending money to create life experiences will guide us to a more fulfilling life.
+    <br/></br/>
+    That being said, I <i>do not</i> think that everyone should aim to die with zero.
+    <br/></br/>
+    The philosophy embodied in the book assumes that life → time → money → life experiences. However, it does not consider the possibility of exchanging time and money for things like finding passion, gaining social approval, and forming social connections, all of which can help us build a more fulfilling life.
+    <br/></br/>
+    I guess my biggest takeaway from the book is to stop being a lazy piece of sh*t and get out of my room to accomplish something with the ample amount of time I have at the moment. If life is all about creating life experiences, perhaps we should all get out of there and make something out of nothing.
+    '
+    );
 
 INSERT INTO posts (title, cal, content) VALUES (
     'Capitol Hill',
@@ -24,29 +46,6 @@ INSERT INTO posts (title, cal, content) VALUES (
     Netflix original, titled Social Dilemma, tackled this problem (highly recommend if you have not watched it). The documentary addressed the problem of social media manipulating lives and creating a divisive world through the means of revenue. Now, technology and social media play a bigger role than ever, not only in our daily lives but also in the economy as well as politics.
     <br/></br/>
     The arrival of social media has perpetuated the idea of pushing an agenda through technology. In many ways, we are active consumers of the propaganda formulated on the networks around us. In fact, sensational content will <b>always</b> grab more attention than serious journalism, as shown in the past again and again. However, integrity should <b>never</b> be exchanged for attention. The scariest part is that the technology companies are really the only mediators who can save us from the mess that they have created...'
-    );
-
-INSERT INTO posts (title, cal, content) VALUES (
-    'Time & Money',
-    'January 5, 2021',
-    'Recently, I finished reading a book called Die with zero: Getting all you can from your money and life by Bill Perkins. I first heard of Perkins from watching the <a href="https://en.wikipedia.org/wiki/PokerStars_Big_Game">Big Game</a>, where professional poker players buy in with hundreds of thousands of dollars at the Bellagio, the famous casino located in the heart of Las Vegas.
-    <br/></br/>
-    Perkins wasn’t like the other players who have dedicated their whole lives to the game. He made his fortune through venture capital in the energy markets and now plays poker as a hobby. I respected Perkins because of his background and aggressive playstyle, which made him a formidable foe for the game’s pro players.
-    <br/></br/>
-    When I first heard that he had written a book on money, I knew that I had to add it to my personal development books collection. Here’s my reflection after reading the book…
-    <br/></br/>
-    Before reading the book, the concept of dying with zero was foreign; I thought we should aim to die filthy rich to show others how good a life we’ve lived. Throughout the book, Perkins’s main point was that life experiences are the <u>most important conversions of both time and money.</u> Therefore, it should be a goal to exchange the money earned from our time for valuable life experiences to look back on our death beds.
-    <br/></br/>
-    In many ways, the themes highlighted in the book reminded me that we should die with not only zero dollars but also with zero regrets. While we may hear this all this time, the idea of maximizing your wealth accumulated throughout your lifetime by spending it all before dying is still a new idea to me.
-    <br/></br/>
-    Like many others, I am absolutely <i>terrified</i> about the thought of running out of money in my later years. At the same time, I have become aware that this fear has made me afraid of spending money. Ultimately, the right balance of spending money recklessly and spending money to create life experiences will guide us to a more fulfilling life.
-    <br/></br/>
-    That being said, I <i>do not</i> think that everyone should aim to die with zero.
-    <br/></br/>
-    The philosophy embodied in the book assumes that life → time → money → life experiences. However, it does not consider the possibility of exchanging time and money for things like finding passion, gaining social approval, and forming social connections, all of which can help us build a more fulfilling life.
-    <br/></br/>
-    I guess my biggest takeaway from the book is to stop being a lazy piece of sh*t and get out of my room to accomplish something with the ample amount of time I have at the moment. If life is all about creating life experiences, perhaps we should all get out of there and make something out of nothing.
-    '
     );
 
 

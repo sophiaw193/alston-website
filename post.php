@@ -15,6 +15,7 @@ $records = exec_sql_query($db, "SELECT * FROM posts WHERE id=$current_post_id")-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="style/all.css" media="all" />
+  <script src="scripts/all.js"></script>
 
   <title>Blog</title>
 </head>
@@ -33,7 +34,7 @@ $records = exec_sql_query($db, "SELECT * FROM posts WHERE id=$current_post_id")-
         </div>
     </div>
 
-    <a href="blog.php">All Posts</a>
+    <a class="all-posts" href="blog.php">← All Posts</a>
 
 
   <?php 
@@ -50,6 +51,13 @@ $records = exec_sql_query($db, "SELECT * FROM posts WHERE id=$current_post_id")-
 }
 
   ?>
+
+<div class="footer">
+        <div>
+            <i class="footer-icon far fa-envelope"></i>
+            <i class="footer-icon fab fa-linkedin-in"></i>
+        </div>
+    </div>
 
 
   </body>

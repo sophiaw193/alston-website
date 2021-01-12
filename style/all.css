@@ -38,8 +38,14 @@
 
   body {
       margin: 0;
-      /* font-family: Hind; */
+      font-family: open;
   }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
 
   .landing {
     background-color: #379DFA;

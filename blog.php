@@ -41,7 +41,7 @@ $db = open_or_init_sqlite_db('posts.sqlite', "init/init.sql");
                 echo
                     "
             <div class=one-post>
-     
+
             <a href=\"post.php?id=" . $record["id"] . "\">
             <h3>" . $record["title"] . "</h3>
             <h4>" . $record["cal"] . "</h4>

@@ -42,7 +42,7 @@
   }
 
   a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: black;
   }
 
@@ -193,6 +193,10 @@
     border-radius: 5px;
     width: 25%;
     margin: 2%;
+  }
+
+  .one-post a {
+    text-decoration: none;
   }
 
   .blog-content h3 {

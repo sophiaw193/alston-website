@@ -41,27 +41,14 @@ $db = open_or_init_sqlite_db('posts.sqlite', "init/init.sql");
                 echo
                     "
             <div class=one-post>
-
             <a href=\"post.php?id=" . $record["id"] . "\">
             <h3>" . $record["title"] . "</h3>
             <h4>" . $record["cal"] . "</h4>
-            <p>" . $record["preview"] . "</p>
-            </div>
             </a>
+            </div>
             ";
             }
             ?>
-
-            <div class="one-post">
-                <a href="jan05.html">
-                    <h3>Time and Money</h3>
-                    <h4>Jan 05, 2020</h4>
-                    <p>
-                        Recently, I finished reading a book called Die with zero: Getting all you can from your money and life by Bill Perkins...
-                    </p>
-                </a>
-
-            </div>
         </div>
     </div>
 

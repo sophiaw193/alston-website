@@ -391,7 +391,34 @@ font-family: open-medium;
     height: auto !important;
   }
 
+.casestudy img {
+  width: 350px;
+  border-radius: 10px;
+}
 
+.casestudy {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.case-text {
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.case-text h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.case-text a {
+text-decoration: none;
+font-family: open-bold;
+color: #45D1A7;
+}
 
 
 

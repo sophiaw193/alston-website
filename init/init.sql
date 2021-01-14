@@ -6,8 +6,26 @@ CREATE TABLE posts (
 );
 
 INSERT INTO posts (title, cal, content) VALUES (
+    'Is it Moral to Cheat?',
+    'January 30th, 2021',
+    '
+    The other day, I was scrolling through my newsfeed on Facebook when I stumbled upon a post about cheating on exams posted in a networking group. The author attached a screenshot from a Reddit thread in which an anonymous user explained that there is nothing morally wrong with cheating on tests/school. He or she went on to support their argument with an example: “99% of bartenders...use google to find the recipes for [cocktails].” The main idea was that since the real world doesn’t operate in exam conditions, it is not morally wrong to operate in a cheating mindset.
+    <br/></br/>
+    While reading this post, I noticed the lack of logical reasoning behind the author’s argument. The author of the post claimed that the real world doesn’t operate in exam conditions, which I can agree with (in many cases, people are given flexible deadlines and resources). In fact, people in the workplace often consult their colleagues in some form or another. However, the author neglected the fact that students in an institution are bound by an ethical code of conduct, which often has academic integrity as one of the first things. Although the real world does not operate in the same conditions, cheating does not become morally justified as it is a betrayal of oneself, others’ trust, and the integrity of the system within.
+    <br/></br/>
+    Other comments on the post seem to agree that the argument is flawed. One person cited that “[exams] test that you have the ability to reason and follow through a problem.” He explained that a cheater is claiming that he or she can do these things independently, which makes it morally wrong because, in reality, that person has not been able to accomplish the task by themselves. Another comment was especially alarming; this comment suggested that if we knew our doctors cheated their way through medical school and continued using Google for diagnosis, we would no longer want to see this doctor. The same logic applies for experts in different fields. I think it is just as crucial that the person with the supposed expertise treat others how they want to be treated. From a utilitarian point of view, I do think that most forms of cheating are still morally wrong because after all, none of us would like being lied to.
+    <br/></br/>
+    All of this talk about cheating brings to mind another topic: lies. In Jonathan Haidt’s book, <i>The Righteous Mind</i>, he briefly mentioned the topic of lying. His theory was that lying was an intuitive response in our minds aimed to defend our self-righteousness. In fact, it is often performed for socially strategic messages. I remember when I lied to my professor in an email about missing an upcoming class in a seminar that required attendance. I was visiting friends at another university, and I knew that I would not get back on campus on that day. So I told my professor that I was going to my cousin’s wedding. In retrospect, I can see how I used lying to defend myself from being penalized. Had I stated the right cause of my inability to attend the class, my professor would have said something along the lines of “well, you see that is not a valid excuse for missing class.” Therefore, I do not think it was morally wrong to lie there; but I could be wrong, as I was simply backing up my intuition with strategic reasoning.
+    <br/></br/>
+    Although lying, in my opinion, is a less severe form of cheating, I am interested in how we can address the moral problems surrounding these topics down the line. It may be worthwhile to begin altering the process in which students are measured at school. From my school experiences, my grades from exams were not reflective of my knowledge but, more so, my work ethic in the preparation phase. Therefore, those who spent more time studying generally received better grades (although there are many exceptions, mostly geniuses who were excellent at memorizing. In retrospect, I think that there should be a shift to more projects/collaboration amongst students. Not only will these types of assignments prepare them for the real world, but it will also incentivize them to pull their own weight and work harder. As humans, we have a tendency to care about how others perceive us. In a group setting, students can learn to build confidence in working with others and gain perspectives from others in the teams.
+    <br/></br/>
+    I’d like to think that humans are all <b>moral creatures</b> and that the distractions in the world only serve to prevent us from finding our honest and moral selves.
+    '
+    );
+
+INSERT INTO posts (title, cal, content) VALUES (
     'Time & Money',
-    'January 21, 2021',
+    'January 19th, 2021',
     'Recently, I finished reading a book called Die with zero: Getting all you can from your money and life by Bill Perkins. I first heard of Perkins from watching the <a href="https://en.wikipedia.org/wiki/PokerStars_Big_Game">Big Game</a>, where professional poker players buy in with hundreds of thousands of dollars at the Bellagio, the famous casino located in the heart of Las Vegas.
     <br/></br/>
     Perkins wasn’t like the other players who have dedicated their whole lives to the game. He made his fortune through venture capital in the energy markets and now plays poker as a hobby. I respected Perkins because of his background and aggressive playstyle, which made him a formidable foe for the game’s pro players.

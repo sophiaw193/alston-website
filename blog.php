@@ -32,6 +32,8 @@ $db = open_or_init_sqlite_db('posts.sqlite', "init/init.sql");
         </div>
     </div>
 
+    <p class="blog-intro">I write about random things on my mind.</p>
+
     <div class="blog-content">
         <div class="posts">
 

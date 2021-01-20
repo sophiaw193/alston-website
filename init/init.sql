@@ -6,7 +6,7 @@ CREATE TABLE posts (
 );
 
 INSERT INTO posts (title, cal, content) VALUES (
-    'Is it Moral to Cheat?',
+    'The <i>Morality</i> of Cheating',
     'January 30th, 2021',
     '
     The other day, I was scrolling through my newsfeed on Facebook when I stumbled upon a post about cheating on exams posted in a networking group. The author attached a screenshot from a Reddit thread in which an anonymous user explained that there is nothing morally wrong with cheating on tests/school. He or she went on to support their argument with an example: “99% of bartenders...use google to find the recipes for [cocktails].” The main idea was that since the real world doesn’t operate in exam conditions, it is not morally wrong to operate in a cheating mindset.
@@ -17,9 +17,9 @@ INSERT INTO posts (title, cal, content) VALUES (
     <br/></br/>
     All of this talk about cheating brings to mind another topic: lies. In Jonathan Haidt’s book, <i>The Righteous Mind</i>, he briefly mentioned the topic of lying. His theory was that lying was an intuitive response in our minds aimed to defend our self-righteousness. In fact, it is often performed for socially strategic messages. I remember when I lied to my professor in an email about missing an upcoming class in a seminar that required attendance. I was visiting friends at another university, and I knew that I would not get back on campus on that day. So I told my professor that I was going to my cousin’s wedding. In retrospect, I can see how I used lying to defend myself from being penalized. Had I stated the right cause of my inability to attend the class, my professor would have said something along the lines of “well, you see that is not a valid excuse for missing class.” Therefore, I do not think it was morally wrong to lie there; but I could be wrong, as I was simply backing up my intuition with strategic reasoning.
     <br/></br/>
-    Although lying, in my opinion, is a less severe form of cheating, I am interested in how we can address the moral problems surrounding these topics down the line. It may be worthwhile to begin altering the process in which students are measured at school. From my school experiences, my grades from exams were not reflective of my knowledge but, more so, my work ethic in the preparation phase. Therefore, those who spent more time studying generally received better grades (although there are many exceptions, mostly geniuses who were excellent at memorizing. In retrospect, I think that there should be a shift to more projects/collaboration amongst students. Not only will these types of assignments prepare them for the real world, but it will also incentivize them to pull their own weight and work harder. As humans, we have a tendency to care about how others perceive us. In a group setting, students can learn to build confidence in working with others and gain perspectives from others in the teams.
+    Although lying, in my opinion, is a less severe form of cheating, I am interested in how we can address the moral problems surrounding these topics down the line. It may be worthwhile to begin altering the process in which students are measured at school. From my school experiences, exam grades were not reflective of my knowledge but, more so, my work ethic in the preparation phase. Therefore, those who spent more time studying generally received better grades (although there are many exceptions, mostly geniuses who were excellent at memorizing). In retrospect, I think that there should be a shift to more projects/collaboration amongst students. Not only will these types of assignments prepare them for the real world, but it will also incentivize them to pull their own weight and work harder. As humans, we have a tendency to care about how others perceive us. In a group setting, students can learn to build confidence in working with others and gain perspectives from others in the teams.
     <br/></br/>
-    I’d like to think that humans are all <b>moral creatures</b> and that the distractions in the world only serve to prevent us from finding our honest and moral selves.
+    I’d like to think that humans are all <b>moral creatures</b> and that the distractions in the world only serve to prevent us from finding our <b>honest and moral selves.</b>
     '
     );
 
@@ -32,7 +32,7 @@ INSERT INTO posts (title, cal, content) VALUES (
     <br/></br/>
     When I first heard that he had written a book on money, I knew that I had to add it to my personal development books collection. Here’s my reflection after reading the book…
     <br/></br/>
-    Before reading the book, the concept of dying with zero was foreign; I thought we should aim to die filthy rich to show others how good a life we’ve lived. Throughout the book, Perkins’s main point was that life experiences are the <u>most important conversions of both time and money.</u> Therefore, it should be a goal to exchange the money earned from our time for valuable life experiences to look back on our death beds.
+    Before reading the book, the concept of dying with zero was foreign; I thought we should aim to die filthy rich to show others how good a life we’ve lived. Throughout the book, Perkins’s main point was that life experiences are the <b>most important conversions of both time and money.</b> Therefore, it should be a goal to exchange the money earned from our time for valuable life experiences to look back on our death beds.
     <br/></br/>
     In many ways, the themes highlighted in the book reminded me that we should die with not only zero dollars but also with zero regrets. While we may hear this all this time, the idea of maximizing your wealth accumulated throughout your lifetime by spending it all before dying is still a new idea to me.
     <br/></br/>
@@ -53,13 +53,11 @@ INSERT INTO posts (title, cal, content) VALUES (
     <br/></br/>
     Although I would not categorize myself as a liberal or conservative, some of my values and morals are reflected upon the policies of the left (pro-choice, pro-gay-marriage, pro-environment, just to name a few). At the same time, I recognize that while I do agree upon ideologies and policies that resemble the Democratic party, I could be a victim of an echo chamber from the prevalence of social media technologies. As a citizen, I take the freedom of free-thinking for granted.
     <br/></br/>
-    Therefore, I am meticulous and aware of every step on social media because I do firmly believe that in order to formulate a <i>justified</i> opinion on a topic, one <u>needs</u> to be first informed of the facts of both sides.
+    Therefore, I am meticulous and aware of every step on social media because I do firmly believe that in order to formulate a <i>justified</i> opinion on a topic, one <b>needs</b> to be first informed of the facts of both sides.
     <br/></br/>
-    I was having dinner with my mother earlier today and she was telling me about how the Democrats may have rigged the election (keep in mind that my mom is an immigrant with limited English skills who gets most of her news source from WeChat). What was intriguing from this conversation was how much of the news over WeChat reflected upon right-wing media.
+    I was having dinner with my mother earlier last week when she asked me if the Democrats may had rigged the election (keep in mind that my mom is an immigrant with limited English skills who gets most of her news source from WeChat). Then she pointed out some scandals and flaws of the Democrat party. I was skeptical at first but did not want to immediately debunk her statements because like I said earlier in this post, in order to make justified opinions, one needs to be informed of both sides. The truth was that I was not completely familiar with the stories she shared because I was simply not exposed to any of the same sources on the platforms that I use. What I did suggest to her is for her to expose herself to videos and stories from the other side (although that was an impossible task because most, if not all, Chinese-reported news on WeChat seemed to be pro-Trump, which brings the question: Why are <a href="https://foreignpolicy.com/2020/11/13/liberal-chinese-americans-fighting-right-wing-wechat-disinformation/">Chinese sources on WeChat</a> only bringing attention to right-wing news to begin with?). My only logical guess is that the Chinese Community Party is using these news to promote their own agneda. By showing a divise America under the oath of democracy, China aims to make its leadership look as firm and strong as possible.
     <br/></br/>
-    I was skeptical but did not want to debunk her statements because like I said earlier in this post, in order to make justified opinions, one needs to be informed of both sides. The truth was that I was not completely familiar with the stories she shared because I was simply not exposed to any of the same sources on the platforms that I use. What I did suggest to her is for her to expose herself to videos and stories from the other side (although that was an impossible task because most, if not all, Chinese-reported news on WeChat were pro-Trump, which brings the question: Why are <a href="https://foreignpolicy.com/2020/11/13/liberal-chinese-americans-fighting-right-wing-wechat-disinformation/">Chinese sources on WeChat</a> only bringing attention to right-wing news to begin with?). My only logical guess is that the Chinese Community Party is using these news to promote their own agneda. By showing a divise America under the oath of democracy, China aims to make its leadership look as firm and strong as possible.
-    <br/></br/>
-    What comes to mind is how powerful technology has become in our lives. It has the power to influence communities of people on a global scale almost as if it was a form of brainwashing. In fact, the closest thing that comes remotely close to social media was the mass usage of television in homes back in the mid 20th century. And now it is time to address the ethical concerns and morality concerns.
+    What comes to mind is how powerful technology has become in our lives. It has the power to influence communities of people on a global scale almost as if it was a form of brainwashing. In fact, the closest thing that comes remotely close to social media was the mass usage of television in homes back in the mid 20th century. And now it is time to address the ethical concerns.
     <br/></br/>
     Netflix original, titled Social Dilemma, tackled this problem (highly recommend if you have not watched it). The documentary addressed the problem of social media manipulating lives and creating a divisive world through the means of revenue. Now, technology and social media play a bigger role than ever, not only in our daily lives but also in the economy as well as politics.
     <br/></br/>
@@ -74,7 +72,7 @@ INSERT INTO posts (title, cal, content) VALUES (
 	<br/><br/>
 	Now, take a moment and think about what you said at the end of last year...
 	<br/><br/>
-	To be frank, I don’t remember the last time I set a New Year’s resolution for myself. And if I did, it would probably be back in high school where I made it my goal to climb the ladders in a video game called League of Legends. (I did peak at Diamond Four, if you were even remotely curious)
+	To be frank, I don’t remember the last time I set a New Year’s resolution for myself. And if I did, it would probably be back in high school where I made it my goal to climb the ladders in a video game.
 	<br/><br/>
 	Over the years, I have stopped making New Year’s resolutions. It is not because I sucked at accomplishing them, but rather I have become aware of what separates a resolution from just another goal on my bucket list.
     <br/><br/>
@@ -88,7 +86,7 @@ INSERT INTO posts (title, cal, content) VALUES (
     <br/><br/>
 	One of my friends had made it his New Year’s resolution to eat healthier so he could lose weight. However, after two and a half weeks of “healthy eating,” he gave up and resumed his diet from the previous year. Afterward, he convinced himself that he had already failed his resolution for the year and that he would try again next year, hopefully coming back stronger.
     <br/><br/>
-	This mentality of <u>attaching a goal to a timeframe</u> (a whole year of 365 days) is problematic. According to a report from <a href="https://www.forbes.com/sites/kathycaprino/2019/12/21/the-top-3-reasons-new-years-resolutions-fail-and-how-yours-can-succeed/?sh=2d6b84596992">Forbes</a>, around 80% of Americans fail their New Year’s Resolutions.
+	This mentality of <b>attaching a goal to a timeframe</b> (a whole year of 365 days) is problematic. According to a report from <a href="https://www.forbes.com/sites/kathycaprino/2019/12/21/the-top-3-reasons-new-years-resolutions-fail-and-how-yours-can-succeed/?sh=2d6b84596992">Forbes</a>, around 80% of Americans fail their New Year’s Resolutions.
     <br/><br/>
     As humans, we are taught that failure builds success. However, this belief provides us with the cushion which ultimately leaves us <b>too much room for failure</b>.
     <br/><br/>
@@ -97,5 +95,6 @@ INSERT INTO posts (title, cal, content) VALUES (
     2020 has been a tough year for all of us. I hope that 2021 brings us a fresh start and the future shines a bright light.
     <br/><br/>
     Cheers,
+    <br/><br/>
 	Alston'
 	);

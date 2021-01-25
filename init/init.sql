@@ -7,9 +7,9 @@ CREATE TABLE posts (
 
 INSERT INTO posts (title, cal, content) VALUES (
     'The <i>Morality</i> of Cheating',
-    'January 30th, 2021',
+    'February 9th, 2021',
     '
-    The other day, I was scrolling through my newsfeed on Facebook when I stumbled upon a post about cheating on exams posted in a networking group. The author attached a screenshot from a Reddit thread in which an anonymous user explained that there is nothing morally wrong with cheating on tests/school. He or she went on to support their argument with an example: “99% of bartenders...use google to find the recipes for [cocktails].” The main idea was that since the real world doesn’t operate in exam conditions, it is not morally wrong to operate in a cheating mindset.
+    Yesterday, I was scrolling through my newsfeed on Facebook when I stumbled upon a post about cheating on exams posted in a networking group. The author attached a screenshot from a Reddit thread in which an anonymous user explained that there is nothing morally wrong with cheating on tests/school. He or she went on to support their argument with an example: “99% of bartenders...use google to find the recipes for [cocktails].” The main idea was that since the real world doesn’t operate in exam conditions, it is not morally wrong to operate in a cheating mindset.
     <br/></br/>
     While reading this post, I noticed the lack of logical reasoning behind the author’s argument. The author of the post claimed that the real world doesn’t operate in exam conditions, which I can agree with (in many cases, people are given flexible deadlines and resources). In fact, people in the workplace often consult their colleagues in some form or another. However, the author neglected the fact that students in an institution are bound by an ethical code of conduct, which often has academic integrity as one of the first things. Although the real world does not operate in the same conditions, cheating does not become morally justified as it is a betrayal of oneself, others’ trust, and the integrity of the system within.
     <br/></br/>
@@ -24,8 +24,33 @@ INSERT INTO posts (title, cal, content) VALUES (
     );
 
 INSERT INTO posts (title, cal, content) VALUES (
+    'The Mob Mentality',
+    'January 25th, 2021',
+    '
+    A recent phenomenon in the Financial industry is the increasing stock value of Gamestop (GME), perpetuated by mobs of anonymous social media users on Reddit forum called WallStreetBets (WSB). Throughout the past three weeks, I’ve followed their journey from the time when the stock was valued at $20 to today, where it peaked around ~$155.
+    <br/></br/>
+    Like many others, I have been warned of the risk of trading a stock this volatile. The logic is simple: If a stock suddenly spikes higher, short sellers have to rush to buy back shares. The more that a shorted stock like GME goes up, the bigger the losses become if a short seller doesn not buy back their positions, ultimately creating a squeeze which leads to losses. However, the WSB horde, as an author on <a href="hhttps://www.bloomberg.com/news/articles/2021-01-25/how-wallstreetbets-pushed-gamestop-shares-to-the-moon">Bloomberg Wealth</a> describes, managed to turn the tables in the game that short sellers invented, and “spinning gold from the complacency of others.”
+    <br/></br/>
+    After reading the comments within the forums for the past three weeks, I have discovered that that mob psychology and specifically mob mentality are closely related to the subject at hand. Mob psychology, also known as crowd psychology, is a theoretical approach attempting to explain collective behavior solely on the basis of the psychological states of people who participate. For example, individuals may tend to make decisions differently in groups in comparison to making decisions independently. Depending on the situation, individuals are prone to acting in ways that can be described as “out of character,” especially in scenarios involving other people.
+    <br/></br/>
+    Ultimately, a mob mentality is formed, where people are joined together by an idea, cost, or belief. I witnessed the mob mentality while scrolling through the reddit posts on WSB. In the three screenshots below, I show posts on the forum as well as comment threads, all pertaining to recent news on the GME stock.
+    <br/></br/>
+    One screenshot highlighted two posts, one captioned “IDGAF about making money at this point,” and another captioned “we f*cking did it bois.” This sense of <b>not me, not you, but us together</b> exemplifies the power of mob mentality. When people are joined together over the belief of one idea (in this case one company/stock), they will go miles to hype their belief up, reinforce their narratives, and reassure others who are on the same boat. I can personally feel how powerful this mutual feeling of belief can influence others to adopt the same attitudes about the same things.
+    <br/></br/>
+    As we can see from the results so far, the number of GME shares have spiked which resulted in short term gains for many investors. While the value of the stock jumps higher and higher, the fear of missing out becomes even more apparent in the community. Leveraging this, the WSB community has collectively helped raise the market cap. I want to leave this blog with a question I had while looking at this phenomenon: Does the mob mentality raise people’s appetite for risk? Does it exploit human’s risk-taking nature? Or are humans naturally risk-averse creatures?
+    <br/></br/>
+    Nevertheless, only time will tell where the fate of GME and its investors will be. In the meantime, <i>GME to the moon</i> 🌚🌚
+    <br/></br/>
+    If you want to leanr more about mob psychology, check out one of my favorite YouTube channels which discusses mob psychology in-depth in this <a href="https://www.youtube.com/watch?v=HrNTOKYbhG4">video</a>.
+    <img src="images/mob_3.png" alt="mob_3">
+    <img src="images/mob_2.png" alt="mob_2">
+    <img src="images/mob_1.png" alt="mob_1">
+    '
+    );
+
+INSERT INTO posts (title, cal, content) VALUES (
     'Time & Money',
-    'January 19th, 2021',
+    'January 18th, 2021',
     'Recently, I finished reading a book called Die with zero: Getting all you can from your money and life by Bill Perkins. I first heard of Perkins from watching the <a href="https://en.wikipedia.org/wiki/PokerStars_Big_Game">Big Game</a>, where professional poker players buy in with hundreds of thousands of dollars at the Bellagio, the famous casino located in the heart of Las Vegas.
     <br/></br/>
     Perkins wasn’t like the other players who have dedicated their whole lives to the game. He made his fortune through venture capital in the energy markets and now plays poker as a hobby. I respected Perkins because of his background and aggressive playstyle, which made him a formidable foe for the game’s pro players.
@@ -36,7 +61,7 @@ INSERT INTO posts (title, cal, content) VALUES (
     <br/></br/>
     In many ways, the themes highlighted in the book reminded me that we should die with not only zero dollars but also with zero regrets. While we may hear this all this time, the idea of maximizing your wealth accumulated throughout your lifetime by spending it all before dying is still a new idea to me.
     <br/></br/>
-    Like many others, I am absolutely <i>terrified</i> about the thought of running out of money in my later years. At the same time, I have become aware that this fear has made me afraid of spending money. Ultimately, the right balance of spending money recklessly and spending money to create life experiences will guide us to a more fulfilling life.
+    Like others, I am absolutely <i>terrified</i> about the thought of running out of money in my later years. At the same time, I have become aware that this fear has made me afraid of spending money. Ultimately, the right balance of spending money recklessly and spending money to create life experiences will guide us to a more fulfilling life.
     <br/></br/>
     That being said, I <i>do not</i> think that everyone should aim to die with zero.
     <br/></br/>
@@ -51,11 +76,11 @@ INSERT INTO posts (title, cal, content) VALUES (
     'January 6, 2021',
     '2021 may have just started, but chaos remains imminent in the United States. As a Pro-Trump mob breached the Capitol Building on this <a href="https://www.nytimes.com/live/2021/01/06/us/washington-dc-protests">day</a>, the whole world is closely observing as the incident escalates.
     <br/></br/>
-    Although I would not categorize myself as a liberal or conservative, some of my values and morals are reflected upon the policies of the left (pro-choice, pro-gay-marriage, pro-environment, just to name a few). At the same time, I recognize that while I do agree upon ideologies and policies that resemble the Democratic party, I could be a victim of an echo chamber from the prevalence of social media technologies. As a citizen, I take the freedom of free-thinking for granted.
+    Although I would not categorize myself as a liberal nor conservative, some of my values and morals are reflected upon the policies of the left (pro-choice, pro-gay-marriage, pro-environment, just to name a few). At the same time, I recognize that while I do agree upon ideologies and policies that resemble the Democratic party, I could be a victim of an echo chamber from the prevalence of social media technologies. As a citizen, I take the freedom of free-thinking for granted.
     <br/></br/>
     Therefore, I am meticulous and aware of every step on social media because I do firmly believe that in order to formulate a <i>justified</i> opinion on a topic, one <b>needs</b> to be first informed of the facts of both sides.
     <br/></br/>
-    I was having dinner with my mother earlier last week when she asked me if the Democrats may had rigged the election (keep in mind that my mom is an immigrant with limited English skills who gets most of her news source from WeChat). Then she pointed out some scandals and flaws of the Democrat party. I was skeptical at first but did not want to immediately debunk her statements because like I said earlier in this post, in order to make justified opinions, one needs to be informed of both sides. The truth was that I was not completely familiar with the stories she shared because I was simply not exposed to any of the same sources on the platforms that I use. What I did suggest to her is for her to expose herself to videos and stories from the other side (although that was an impossible task because most, if not all, Chinese-reported news on WeChat seemed to be pro-Trump, which brings the question: Why are <a href="https://foreignpolicy.com/2020/11/13/liberal-chinese-americans-fighting-right-wing-wechat-disinformation/">Chinese sources on WeChat</a> only bringing attention to right-wing news to begin with?). My only logical guess is that the Chinese Community Party is using these news to promote their own agneda. By showing a divise America under the oath of democracy, China aims to make its leadership look as firm and strong as possible.
+    I was having dinner with my mother earlier last week when she asked me if the Democrats had rigged the election (keep in mind that my mom is an immigrant with limited English skills who gets most of her news source from WeChat). Then she pointed out some scandals and flaws of the Democrat party. I was skeptical at first but did not want to immediately debunk her statements because like I said earlier in this post, in order to make justified opinions, one needs to be informed of both sides. The truth was that I was not completely familiar with the stories she shared because I was simply not exposed to any of the same sources on the platforms that I use. What I did suggest to her is for her to watch videos and stories from the other side (later I realized that was an impossible task because most, if not all, Chinese-reported news on WeChat seemed to be pro-Trump, which brings the question: Why are <a href="https://foreignpolicy.com/2020/11/13/liberal-chinese-americans-fighting-right-wing-wechat-disinformation/">Chinese sources on WeChat</a> only bringing attention to right-wing news to begin with?). My only logical guess is that the Chinese Community Party is using these news to promote their own agenda. By showing a divise America under the oath of democracy, China aims to make its leadership look as firm and strong as possible.
     <br/></br/>
     What comes to mind is how powerful technology has become in our lives. It has the power to influence communities of people on a global scale almost as if it was a form of brainwashing. In fact, the closest thing that comes remotely close to social media was the mass usage of television in homes back in the mid 20th century. And now it is time to address the ethical concerns.
     <br/></br/>

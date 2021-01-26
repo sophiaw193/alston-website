@@ -35,16 +35,19 @@ INSERT INTO posts (title, cal, content) VALUES (
     <br/></br/>
     Ultimately, a mob mentality is formed, where people are joined together by an idea, cost, or belief. I witnessed the mob mentality while scrolling through the reddit posts on WSB. In the three screenshots below, I show posts on the forum as well as comment threads, all pertaining to recent news on the GME stock.
     <br/></br/>
-    One screenshot highlighted two posts, one captioned “IDGAF about making money at this point,” and another captioned “we f*cking did it bois.” This sense of <b>not me, not you, but us together</b> exemplifies the power of mob mentality. When people are joined together over the belief of one idea (in this case one company/stock), they will go miles to hype their belief up, reinforce their narratives, and reassure others who are on the same boat. I can personally feel how powerful this mutual feeling of belief can influence others to adopt the same attitudes about the same things.
+    Figure 1 highlighted two posts, one captioned “IDGAF about making money at this point” and another captioned “we f*cking did it bois.” This sense of <b>not me, not you, but us together</b> exemplifies the power of mob mentality. When people are joined together over the belief of one idea (in this case one company/stock), they will go miles to hype their belief up, reinforce their narratives, and reassure others who are on the same boat. I can personally feel how powerful this mutual feeling of belief can influence others to adopt the same attitudes about the same thing.
+    <br/></br/>
+    Figure 2 is a perfect example of the mob mentality; it is frankly rebellious, yet insipring. Lastly, figure 3 further demonstrates the mob mentality, with members reinforcing their group identity and backing one another up.
     <br/></br/>
     As we can see from the results so far, the number of GME shares have spiked which resulted in short term gains for many investors. While the value of the stock jumps higher and higher, the fear of missing out becomes even more apparent in the community. Leveraging this, the WSB community has collectively helped raise the market cap. I want to leave this blog with a question I had while looking at this phenomenon: Does the mob mentality raise people’s appetite for risk? Does it exploit human’s risk-taking nature? Or are humans naturally risk-averse creatures?
     <br/></br/>
     Nevertheless, only time will tell where the fate of GME and its investors will be. In the meantime, <i>GME to the moon</i> 🌚🌚
     <br/></br/>
     If you want to leanr more about mob psychology, check out one of my favorite YouTube channels which discusses mob psychology in-depth in this <a href="https://www.youtube.com/watch?v=HrNTOKYbhG4">video</a>.
-    <img src="images/mob_3.png" alt="mob_3">
-    <img src="images/mob_2.png" alt="mob_2">
-    <img src="images/mob_1.png" alt="mob_1">
+    <img src="images/mob_3.png" alt="mob_3"> <figcaption> Figure 1</figcaption>
+    <img src="images/mob_2.png" alt="mob_2"> <figcaption> Figure 2</figcaption>
+    <img src="images/mob_1.png" alt="mob_1"> <figcaption> Figure 3
+    </figcaption>
     '
     );
 

@@ -24,7 +24,7 @@ INSERT INTO posts (title, cal, content) VALUES (
     );
 
 INSERT INTO posts (title, cal, content) VALUES (
-    'The Mob Mentality',
+    'The Mob Mentality - GME',
     'January 25th, 2021',
     '
     A recent phenomenon in the Financial industry is the increasing stock value of Gamestop (GME), perpetuated by mobs of anonymous social media users on Reddit forum called WallStreetBets (WSB). Throughout the past three weeks, I’ve followed their journey from the time when the stock was valued at $20 to today, where it peaked around ~$155.

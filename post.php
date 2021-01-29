@@ -21,45 +21,48 @@ $records = exec_sql_query($db, "SELECT * FROM posts WHERE id=$current_post_id")-
 </head>
 
 <body>
-<div class="nav">
-        <a href="index.html"><img class="me" src="images/me.png" alt="me"></a>
-        <h2 class="name">ALSTON WANG</h2>
-        <div>
-            <ul class="links">
-                <li class="links"><a href="portfolio.html">WORK</a></li>
-                <li class="links"><a href="discovery.html">INTERESTS</a></li>
-                <li class="links"><a class="active" href="blog.php">BLOG</a></li>
-                <li class="links"><a href="about.html">ABOUT</a></li>
-            </ul>
-        </div>
+  <div class="nav">
+    <a href="index.html"><img class="me" src="images/me.png" alt="me"></a>
+    <h2 class="name">ALSTON WANG</h2>
+    <div>
+      <ul class="links">
+        <li class="links"><a href="portfolio.html">WORK</a></li>
+        <li class="links"><a href="discovery.html">INTERESTS</a></li>
+        <li class="links"><a class="active" href="blog.php">BLOG</a></li>
+        <li class="links"><a href="about.html">ABOUT</a></li>
+      </ul>
     </div>
+  </div>
 
-    <a class="all-posts" href="blog.php">← All Posts</a>
+  <a class="arrow" href="blog.php">←
+  </a>
 
 
-  <?php 
 
-  foreach ($records as $record) {
-    echo "<div class=post>
+    <?php
+
+    foreach ($records as $record) {
+      echo "<div class=post>
     <h1>" . $record["title"] . "</h1>
     <h2>" . $record["cal"] . "</h2>
-<p>". $record["content"] . "</p>
+    <hr></hr>
+<p>" . $record["content"] . "
 
-</a></div>
+</div>
 
 ";
-}
+    }
 
-  ?>
+    ?>
 
-<div class="footer">
-        <div>
-            <i class="footer-icon far fa-envelope"></i>
-            <i class="footer-icon fab fa-linkedin-in"></i>
-        </div>
+  <div class="footer">
+    <div>
+      <i class="footer-icon far fa-envelope"></i>
+      <i class="footer-icon fab fa-linkedin-in"></i>
     </div>
+  </div>
 
 
-  </body>
+</body>
 
-  </html>
+</html>

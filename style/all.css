@@ -4,6 +4,11 @@
   }
 
   @font-face {
+    font-family: Barri;
+    src: url(Barriecito/Barriecito-Regular.ttf);
+  }
+
+  @font-face {
     font-family: Bitter;
     src: url(Bitter/static/Bitter-Regular.ttf);
   }
@@ -39,6 +44,10 @@
   body {
       margin: 0;
       font-family: open;
+  }
+
+  b{
+    font-family: Open-Bold;
   }
 
   a {
@@ -187,6 +196,29 @@
     margin: 0 auto;
   }
 
+  .post hr {
+    width: 5%;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    height: 5px;
+    border: none;
+    background-color: #379DFA;
+  }
+
+  .post br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 30px; /* change this to whatever height you want it */
+  }
+
+  .post a {
+    color: #8A2B25;
+    text-decoration: none;
+    font-family: open-bold;
+    
+  }
+
   .one-post {
     padding: 20px;
     border: 3px solid black;
@@ -213,10 +245,11 @@
     transition-duration: 0.3s;
    }
 
-   .all-posts {
-     padding-left: 20%;
-     text-decoration: none;
-     font-size: 16px;
+   .arrow {
+    text-decoration: none;
+    padding-left: 20%;
+     font-family: Barri;
+     font-size: 50px;
    }
 
    .post {
@@ -236,6 +269,17 @@
 
   .post p {
     font-size: 16px;
+  }
+
+  .three-figure {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .three-figure img {
+    width: 100%;
+    border: 1px solid black;
   }
 
    .footer {
@@ -421,7 +465,7 @@ color: #45D1A7;
 }
 
 .blog-intro {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 

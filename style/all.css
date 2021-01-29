@@ -35,6 +35,11 @@
   }
 
   @font-face {
+    font-family: Open-extrabold;
+    src: url(OpenSans/OpenSans-ExtraBold.ttf);
+  }
+
+  @font-face {
     font-family: Hind;
     src: url(Hind_Siliguri/HindSiliguri-Regular.ttf);
   }
@@ -409,11 +414,31 @@
 
   .interests-content {
     font-family: open;
-    padding-left: 150px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
   }
 
-  .interests-content h2, .interests-content h3 {
-font-family: open-medium;
+  .interest {
+    width: 100%;
+    text-align: center;
+  }
+
+  .interest h3 {
+    font-size: 24px;
+    font-family: Open-extrabold;
+  }
+
+  .interest ul {
+    list-style-type: none;
+    text-align: left;
+    width:65%;
+    margin: 0 auto;
+  }
+
+  .inticon {
+    font-size: 40px;
   }
 
 

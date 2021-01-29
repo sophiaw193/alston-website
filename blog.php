@@ -24,15 +24,15 @@ $db = open_or_init_sqlite_db('posts.sqlite', "init/init.sql");
         <h2 class="name">ALSTON WANG</h2>
         <div>
             <ul class="links">
-                <li class="links"><a href="portfolio.html">WORK</a></li>
-                <li class="links"><a href="discovery.html">INTERESTS</a></li>
+                <li class="links"><a href="work.html">WORK</a></li>
+                <li class="links"><a href="life.html">LIFE</a></li>
                 <li class="links"><a class="active" href="blog.php">BLOG</a></li>
                 <li class="links"><a href="about.html">ABOUT</a></li>
             </ul>
         </div>
     </div>
 
-    <p class="blog-intro">I write about random things on my mind.</p>
+    <p class="blog-intro">I write about random things on my mind 💭</p>
 
     <div class="blog-content">
         <div class="posts">
@@ -41,7 +41,7 @@ $db = open_or_init_sqlite_db('posts.sqlite', "init/init.sql");
             $records = exec_sql_query($db, "SELECT * FROM posts")->fetchAll(PDO::FETCH_ASSOC);
             foreach ($records as $record) {
                 echo
-                    "
+                "
             <div class=one-post>
             <a href=\"post.php?id=" . $record["id"] . "\">
             <h3>" . $record["title"] . "</h3>

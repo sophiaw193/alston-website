@@ -43,11 +43,23 @@ INSERT INTO posts (title, cal, content) VALUES (
     <br/></br/>
     Nevertheless, only time will tell where the fate of GME and its investors will be. In the meantime, <i>GME to the moon</i> 🌚🌚
     <br/></br/>
-    If you want to leanr more about mob psychology, check out one of my favorite YouTube channels which discusses mob psychology in-depth in this <a href="https://www.youtube.com/watch?v=HrNTOKYbhG4">video</a>.
-    <img src="images/mob_3.png" alt="mob_3"> <figcaption> Figure 1</figcaption>
-    <img src="images/mob_2.png" alt="mob_2"> <figcaption> Figure 2</figcaption>
-    <img src="images/mob_1.png" alt="mob_1"> <figcaption> Figure 3
-    </figcaption>
+    If you want to learn more about mob psychology, check out one of my favorite YouTube channels which discusses mob psychology in-depth in this <a href="https://www.youtube.com/watch?v=HrNTOKYbhG4">video</a>.
+    <div class="three-figure">
+    <figure>
+    <img src="images/mob_3.png" alt="mob_3">
+    <figcaption>Figure 1</figcaption>
+    </figure>
+
+    <figure>
+    <img src="images/mob_2.png" alt="mob_2">
+    <figcaption>Figure 2</figcaption>
+    </figure>
+
+    <figure>
+    <img src="images/mob_1.png" alt="mob_1">
+    <figcaption>Figure 3</figcaption>
+    </figure>
+    </div>
     '
     );
 
@@ -76,7 +88,7 @@ INSERT INTO posts (title, cal, content) VALUES (
 
 INSERT INTO posts (title, cal, content) VALUES (
     'Capitol Hill',
-    'January 6, 2021',
+    'January 6th, 2021',
     '2021 may have just started, but chaos remains imminent in the United States. As a Pro-Trump mob breached the Capitol Building on this <a href="https://www.nytimes.com/live/2021/01/06/us/washington-dc-protests">day</a>, the whole world is closely observing as the incident escalates.
     <br/></br/>
     Although I would not categorize myself as a liberal nor conservative, some of my values and morals are reflected upon the policies of the left (pro-choice, pro-gay-marriage, pro-environment, just to name a few). At the same time, I recognize that while I do agree upon ideologies and policies that resemble the Democratic party, I could be a victim of an echo chamber from the prevalence of social media technologies. As a citizen, I take the freedom of free-thinking for granted.
@@ -95,7 +107,7 @@ INSERT INTO posts (title, cal, content) VALUES (
 
 INSERT INTO posts (title, cal, content) VALUES (
 	'A Fresh Start',
-	'Dec 29, 2020',
+	'Dec 29th, 2020',
 	'As 2021 draws closer, a common question that we might get asked is: “What is your New Year’s resolution?”
 	<br/><br/>
 	Now, take a moment and think about what you said at the end of last year...
